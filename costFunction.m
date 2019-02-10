@@ -8,6 +8,7 @@ m=size(X,1);
 Theta1_grad=zeros(25,5);
 Theta2_grad=zeros(3,26);
 J=0;
+
 for i=1:m,
     x = [1 X(i,:)]';
     yi = zeros(3,1);

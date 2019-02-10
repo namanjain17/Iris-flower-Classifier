@@ -7,3 +7,5 @@ function pred = predict(Theta1,Theta2,X)
    [r p] = max(a2,[],2);
    pred = p;
 end
+
+

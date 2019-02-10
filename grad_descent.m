@@ -7,3 +7,5 @@ alpha = .8;
        fprintf('%4i | Cost: %4.6e\r', iter, J);
    end  
 end 
+
+
